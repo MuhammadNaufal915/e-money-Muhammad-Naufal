@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 
 
-// ==========================================================
-// TOP UP
-// ==========================================================
+
 
 class TopUpPage extends StatelessWidget {
   const TopUpPage({super.key});
@@ -20,9 +18,7 @@ class TopUpPage extends StatelessWidget {
 }
 
 
-// ==========================================================
-// TRANSFER
-// ==========================================================
+
 
 class TransferPage extends StatelessWidget {
   const TransferPage({super.key});
@@ -39,9 +35,7 @@ class TransferPage extends StatelessWidget {
 }
 
 
-// ==========================================================
-// SCAN QR
-// ==========================================================
+
 
 class ScanPage extends StatelessWidget {
   const ScanPage({super.key});
@@ -58,9 +52,7 @@ class ScanPage extends StatelessWidget {
 }
 
 
-// ==========================================================
-// RIWAYAT
-// ==========================================================
+
 
 class RiwayatPage extends StatelessWidget {
   const RiwayatPage({super.key});
@@ -77,9 +69,6 @@ class RiwayatPage extends StatelessWidget {
 }
 
 
-// ==========================================================
-// PULSA
-// ==========================================================
 
 class PulsaPage extends StatelessWidget {
   const PulsaPage({super.key});
@@ -96,9 +85,7 @@ class PulsaPage extends StatelessWidget {
 }
 
 
-// ==========================================================
-// VOUCHER GAME
-// ==========================================================
+
 
 class VoucherGamePage extends StatelessWidget {
   const VoucherGamePage({super.key});
@@ -115,9 +102,7 @@ class VoucherGamePage extends StatelessWidget {
 }
 
 
-// ==========================================================
-// TRANSPORTASI
-// ==========================================================
+
 
 class TransportasiPage extends StatelessWidget {
   const TransportasiPage({super.key});
@@ -134,9 +119,7 @@ class TransportasiPage extends StatelessWidget {
 }
 
 
-// ==========================================================
-// TAGIHAN AIR
-// ==========================================================
+
 
 class TagihanAirPage extends StatelessWidget {
   const TagihanAirPage({super.key});
@@ -153,9 +136,7 @@ class TagihanAirPage extends StatelessWidget {
 }
 
 
-// ==========================================================
-// LISTRIK
-// ==========================================================
+
 
 class ListrikPage extends StatelessWidget {
   const ListrikPage({super.key});
@@ -172,9 +153,7 @@ class ListrikPage extends StatelessWidget {
 }
 
 
-// ==========================================================
-// TV KABEL
-// ==========================================================
+
 
 class TvKabelPage extends StatelessWidget {
   const TvKabelPage({super.key});
@@ -191,9 +170,7 @@ class TvKabelPage extends StatelessWidget {
 }
 
 
-// ==========================================================
-// STREAMING
-// ==========================================================
+
 
 class StreamingPage extends StatelessWidget {
   const StreamingPage({super.key});
@@ -210,9 +187,7 @@ class StreamingPage extends StatelessWidget {
 }
 
 
-// ==========================================================
-// BELANJA ONLINE
-// ==========================================================
+
 
 class BelanjaOnlinePage extends StatelessWidget {
   const BelanjaOnlinePage({super.key});
@@ -229,9 +204,7 @@ class BelanjaOnlinePage extends StatelessWidget {
 }
 
 
-// ==========================================================
-// DONASI
-// ==========================================================
+
 
 class DonasiPage extends StatelessWidget {
   const DonasiPage({super.key});
@@ -248,9 +221,7 @@ class DonasiPage extends StatelessWidget {
 }
 
 
-// ==========================================================
-// ASURANSI
-// ==========================================================
+
 
 class AsuransiPage extends StatelessWidget {
   const AsuransiPage({super.key});
@@ -267,9 +238,7 @@ class AsuransiPage extends StatelessWidget {
 }
 
 
-// ==========================================================
-// INVESTASI
-// ==========================================================
+
 
 class InvestasiPage extends StatelessWidget {
   const InvestasiPage({super.key});
@@ -286,9 +255,6 @@ class InvestasiPage extends StatelessWidget {
 }
 
 
-// ==========================================================
-// LAINNYA
-// ==========================================================
 
 class LainnyaPage extends StatelessWidget {
   const LainnyaPage({super.key});
@@ -305,9 +271,8 @@ class LainnyaPage extends StatelessWidget {
 }
 
 
-// ==========================================================
+
 // TEMPLATE HALAMAN TUJUAN
-// ==========================================================
 
 Widget halamanTujuan(
   BuildContext context,
@@ -384,7 +349,6 @@ Widget halamanTujuan(
 
             const SizedBox(height: 25),
 
-            // NAMA HALAMAN
 
             Text(
               namaHalaman,
@@ -396,8 +360,6 @@ Widget halamanTujuan(
             ),
 
             const SizedBox(height: 10),
-
-            // KETERANGAN
 
             Text(
               'Halaman layanan $namaHalaman',
@@ -411,8 +373,6 @@ Widget halamanTujuan(
             ),
 
             const SizedBox(height: 25),
-
-            // CONTOH BUTTON
 
             Container(
               padding:

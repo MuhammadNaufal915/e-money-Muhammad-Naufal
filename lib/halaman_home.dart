@@ -53,9 +53,7 @@ class HomePage extends StatelessWidget {
 
                     const SizedBox(height: 25),
 
-                    // ==========================================
                     // SALDO
-                    // ==========================================
 
                     Container(
                       width: double.infinity,
@@ -129,9 +127,7 @@ class HomePage extends StatelessWidget {
 
                     const SizedBox(height: 30),
 
-                    // ==========================================
                     // JUDUL MENU
-                    // ==========================================
 
                     const Text(
                       'Layanan Utama',
@@ -142,10 +138,8 @@ class HomePage extends StatelessWidget {
                     ),
 
                     const SizedBox(height: 18),
-
-                    // ==========================================
                     // BARIS MENU
-                    // ==========================================
+
 
                     Row(
                       mainAxisAlignment:
@@ -341,9 +335,7 @@ class HomePage extends StatelessWidget {
 
                     const SizedBox(height: 35),
 
-                    // ==========================================
                     // TOMBOL SEMUA MENU
-                    // ==========================================
 
                     GestureDetector(
                       onTap: () {
